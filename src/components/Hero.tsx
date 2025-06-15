@@ -53,7 +53,7 @@ const Hero = () => {
 
           {/* Profile Image */}
           <div className="hero-image">
-            <img src="./src/assets/perfil.png" alt="Your Name" className="profile-image" />
+            <img src="assets/perfil.png" alt="Your Name" className="profile-image" />
           </div>
         </div>
       </div>
