@@ -10,7 +10,7 @@ const Projects = () => {
       title: "Grandvoyage",
       description: "The perfect travel guide. Thanks to an application that can also be used offline, you can stay up to date with everything you should do at your destination.",
       technologies: ["Flutter", "Django","SQL", "MapBoxSDK"],
-      image: "/assets/Grandvoyage.png",
+      image: "/portfolio/src/assets/GrandVoyage.png",
       github: "https://github.com/yourusername/grandvoyage",
       live: "https://grandvoyage.com",
       isPaidWork: true,
@@ -21,7 +21,7 @@ const Projects = () => {
       title: "Streamly",
       description: "Streaming application that uses neural networks and SVD models to recommend movies, as well as an advanced search feature and chatbots trained with AI and NLP.",
       technologies: ["Flutter", "FastApi","Laravel", "TensorFlow", "Neural Networks", "NLP", "SQL", "Pandas"],
-      image: "/assets/streamly.jpg",
+      image: "/portfolio/src/assets/streamly.jpg",
       github: "https://github.com/Miguelstucom/streamly",
       live: "https://aitaskmanager.com"
     },
@@ -29,7 +29,7 @@ const Projects = () => {
       title: "SmartMarket",
       description: "Web Marketplace using Recommendations models as SVD and MBA, with a recommendation system based on the user's purchase history.",
       technologies: ["Django", "SQL", "Pandas", "SVM", "MBA"],
-      image: "/assets/smartmarket.png",
+      image: "/portfolio/src/assets/smartmarket.png",
       github: "https://github.com/Miguelstucom/Instacartp4",
       live: "https://aitaskmanager.com"
     },
@@ -37,7 +37,7 @@ const Projects = () => {
       title: "HealthAI",
       description: "Application with AI that analyzes CSV data and images using XGBoost and neural networks.",
       technologies: ["Django","SQL", "Pandas", "XGBoost", "TensorFlow"],
-      image: "/assets/cancer.png",
+      image: "/portfolio/src/assets/cancer.png",
       github: "https://github.com/Miguelstucom/canceranalisis",
       live: "https://aitaskmanager.com"
     },
@@ -45,7 +45,7 @@ const Projects = () => {
       title: "FoodieGuard",
       description: "A mobile application designed to book tables at various restaurants, with a unique feature: it constantly takes customers' allergies into account.",
       technologies: ["Kotlin", "Spring Boot", "SQL"],
-      image: "/assets/Foodieguard.png",
+      image: "/portfolio/src/assets/FoodieGuard.png",
       github: "https://github.com/SJRobayo/FoodieGuard",
       live: "https://aitaskmanager.com"
     },
@@ -53,7 +53,7 @@ const Projects = () => {
       title: "IADelivery",
       description:  "A web application built using different algorithms, such as Dijkstra, to optimize product distribution across the capitals of the Iberian Peninsula, considering storage and expiration dates.",
       technologies: ["Django", "SQL", "Pandas", "Dijkstra"],
-      image: "/assets/IADelivery.png",
+      image: "/portfolio/src/assets/IADelivery.png",
       github: "https://github.com/Miguelstucom/Route_Generator",
       live: "https://aitaskmanager.com"
     },
@@ -61,7 +61,7 @@ const Projects = () => {
       title: "WeatherAI",
       description: "A weather prediction system on a web page that uses an SVM model to determine future weather based on stored variables.",
       technologies: ["Django", "SVM", "Pandas"],
-      image: "/assets/image.png",
+      image: "/portfolio/src/assets/image.png",
       github: "https://github.com/albertoma95/Proyecto3/tree/main",
       live: "https://aitaskmanager.com"
     },
@@ -69,7 +69,7 @@ const Projects = () => {
       title: "Worxinn",
       description: "A mobile application for booking coworking spaces, currently available only in Ireland.",
       technologies: ["Flutter", "Django", "Google Maps API", "SQL", "Firebase",],
-      image: "/assets/worxinn.png",
+      image: "/portfolio/src/assets/Worxinn.png",
       github: "https://github.com/yourusername/cork-guide",
       live: "https://corkguide.com"
     },
