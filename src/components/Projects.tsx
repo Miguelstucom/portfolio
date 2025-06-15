@@ -154,8 +154,8 @@ const Projects = () => {
                       App Store
                     </a>
                   </>
-                ) : project.title !== 'Worxinn' && (
-                  <a href="https://apps.apple.com/es/app/grandvoyage/id1579028108" target="_blank" rel="noopener noreferrer" className="btn">
+                ) : project.title !== 'Grandvoyage' && (
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn">
                     GitHub
                   </a>
                 )}
