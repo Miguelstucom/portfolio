@@ -1,6 +1,6 @@
 import '../styles/Skills.css'
-import { SiFlutter, SiDart, SiDjango, SiPython, SiSpring, SiKotlin, SiMysql, SiHtml5, SiCss3, SiPostman, SiFirebase } from 'react-icons/si'
-import { DiFirebase, DiJava } from 'react-icons/di'
+import { SiFlutter, SiDart, SiDjango, SiPython, SiSpring, SiKotlin, SiMysql, SiPostman, SiFirebase } from 'react-icons/si'
+import { DiJava } from 'react-icons/di'
 
 const skills = [
   { name: 'Flutter', color: '#02569B', icon: <SiFlutter />, url: 'https://flutter.dev' },
@@ -11,8 +11,8 @@ const skills = [
   { name: 'Kotlin', color: '#7F52FF', icon: <SiKotlin />, url: 'https://kotlinlang.org' },
   { name: 'Java', color: '#007396', icon: <DiJava />, url: 'https://www.java.com' },
   { name: 'SQL', color: '#4479A1', icon: <SiMysql />, url: 'https://www.mysql.com' },
-  { name: 'CSS', color: '#1572B6', icon: <SiFirebase />, url: 'https://firebase.google.com/?hl=es-419' },
-  { name: 'HTML', color: '#E34F26', icon: <SiPostman />, url: 'https://www.postman.com/' },
+  { name: 'Firebase', color: '#FFCA28', icon: <SiFirebase />, url: 'https://firebase.google.com/?hl=es-419' },
+  { name: 'Postman', color: '#FF6C37', icon: <SiPostman />, url: 'https://www.postman.com/' },
 ]
 
 const Skills = () => {
