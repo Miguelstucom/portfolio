@@ -10,7 +10,7 @@ const Projects = () => {
       title: "Grandvoyage",
       description: "The perfect travel guide. Thanks to an application that can also be used offline, you can stay up to date with everything you should do at your destination.",
       technologies: ["Flutter", "Django","SQL", "MapBoxSDK"],
-      image: "/assets/GrandVoyage.png",
+      image: "/assets/Grandvoyage.png",
       github: "https://github.com/yourusername/grandvoyage",
       live: "https://grandvoyage.com",
       isPaidWork: true,
@@ -45,7 +45,7 @@ const Projects = () => {
       title: "FoodieGuard",
       description: "A mobile application designed to book tables at various restaurants, with a unique feature: it constantly takes customers' allergies into account.",
       technologies: ["Kotlin", "Spring Boot", "SQL"],
-      image: "/assets/FoodieGuard.png",
+      image: "/assets/Foodieguard.png",
       github: "https://github.com/SJRobayo/FoodieGuard",
       live: "https://aitaskmanager.com"
     },
@@ -69,7 +69,7 @@ const Projects = () => {
       title: "Worxinn",
       description: "A mobile application for booking coworking spaces, currently available only in Ireland.",
       technologies: ["Flutter", "Django", "Google Maps API", "SQL", "Firebase",],
-      image: "/assets/Worxinn.png",
+      image: "/assets/worxinn.png",
       github: "https://github.com/yourusername/cork-guide",
       live: "https://corkguide.com"
     },
