@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar glass-navbar">
       <div className="navbar-brand">
-        <a href="#home" className="brand-text">Mobiel App Developer</a>
+        <a href="#home" className="brand-text">Mobile App Developer</a>
       </div>
       <button className="menu-toggle" onClick={toggleMenu} aria-label="Toggle menu">
         <span className={`hamburger ${isMenuOpen ? 'open' : ''}`}></span>
