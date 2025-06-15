@@ -1,0 +1,153 @@
+.about {
+  padding: 100px 0;
+  background-color: var(--background-dark);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+}
+
+.about-content.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.about-timeline-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.timeline-column {
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline-title {
+  color: var(--primary-light);
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.01em;
+}
+
+.timeline-vertical {
+  position: relative;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.timeline-vertical::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: var(--primary-light);
+  opacity: 0.7;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  min-height: 180px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -13px;
+  top: 40px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--primary-light);
+  border: 3px solid var(--background-dark);
+  z-index: 2;
+}
+
+.timeline-card {
+  margin-left: 30px;
+  background: var(--background-dark);
+  color: var(--text-primary);
+  border-radius: 22px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 2.2rem 2.5rem 2.2rem 2.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timeline-card-bordered {
+  border: 3px solid #fff;
+}
+
+.timeline-date {
+  color: var(--primary-light);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.04em;
+}
+
+.timeline-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.1rem;
+  color: #fff;
+}
+
+.timeline-details {
+  color: var(--text-secondary);
+  font-size: 1.08rem;
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style: disc;
+  line-height: 1.7;
+}
+
+.timeline-details li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  .about-timeline-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .timeline-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 0;
+  }
+  .timeline-card {
+    padding: 1.2rem 1rem 1.2rem 1.2rem;
+  }
+  .timeline-title {
+    font-size: 2rem;
+  }
+} 
